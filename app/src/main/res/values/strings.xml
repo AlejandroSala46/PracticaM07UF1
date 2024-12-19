@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PracticaM07UF1</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_splash_screen.kt">SplashScreen.kt</string>
+    <string name="title_activity_login">login</string>
+    <string name="title_activity_space_xapi">SpaceXApi</string>
+    <string name="title_activity_rocket_detail">RocketDetailActivity</string>
+    <string name="title_activity_add_rocket">AddRocketActivity</string>
+</resources>

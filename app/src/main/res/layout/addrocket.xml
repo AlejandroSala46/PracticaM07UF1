@@ -1,0 +1,114 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+    android:
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Rocket"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:padding="16dp" />
+
+        <!-- Campo para el Nombre -->
+        <EditText
+            android:id="@+id/edit_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Rocket Name (Obligatorio)"
+            android:inputType="text" />
+
+        <!-- Campo para el Tipo -->
+        <EditText
+            android:id="@+id/edit_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Rocket Type (Obligatorio)"
+            android:inputType="text" />
+
+        <!-- Campo para si está Activo -->
+        <CheckBox
+            android:id="@+id/check_active"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Is Active?" />
+
+        <!-- Campo para el Coste por Lanzamiento -->
+        <EditText
+            android:id="@+id/edit_cost_per_launch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Cost Per Launch"
+            android:inputType="numberDecimal" />
+
+        <!-- Campo para la Tasa de Éxito -->
+        <EditText
+            android:id="@+id/edit_success_rate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Success Rate (%)"
+            android:inputType="number" />
+
+        <!-- Campo para el País -->
+        <EditText
+            android:id="@+id/edit_country"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Country (Obligatorio)"
+            android:inputType="text" />
+
+        <!-- Campo para la Compañía -->
+        <EditText
+            android:id="@+id/edit_company"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Company (Obligatorio)"
+            android:inputType="text" />
+
+        <!-- Campo para el Link de Wikipedia (Opcional) -->
+        <EditText
+            android:id="@+id/edit_wikipedia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Wikipedia Link (Opcional)"
+            android:inputType="textUri" />
+
+        <!-- Campo para la Descripción -->
+        <EditText
+            android:id="@+id/edit_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Description (Obligatorio)"
+            android:inputType="textMultiLine" />
+
+        <!-- Campo para Altura en metros -->
+        <EditText
+            android:id="@+id/edit_height_meters"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Height (meters) (Obligatorio)"
+            android:inputType="numberDecimal" />
+
+        <!-- Campo para Diámetro en metros -->
+        <EditText
+            android:id="@+id/edit_diameter_meters"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Diameter (meters) (Obligatorio)"
+            android:inputType="numberDecimal" />
+
+        <!-- Botón para añadir el cohete -->
+        <Button
+            android:id="@+id/btn_add_rocket"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Rocket" />
+    </LinearLayout>
+</ScrollView>

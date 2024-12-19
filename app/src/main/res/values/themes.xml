@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tema principal de la aplicación -->
+    <style name="Theme.PracticaM07UF1" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Personaliza los atributos del tema aquí -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/purple_200</item>
+    </style>
+</resources>
